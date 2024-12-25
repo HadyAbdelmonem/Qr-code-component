@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #8fe1ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+    .container {
+      font-family: 'Outfit', sans-serif;
+      width: 230px;
+      max-width: 600px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    }
+    .image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .info{
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .title{
+      font-size: 16px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .text{
+      font-size: 11px;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="qr-code">
+      <img class="image" src="../qr-code-component-main/images/image-qr-code.png" alt="">
+    </div>
+    <div class="info">
+      <p class="title">Improve your front-end skills by building projects</p>
+      <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+</body>
+</html>
